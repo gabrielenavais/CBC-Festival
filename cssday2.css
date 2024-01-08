@@ -1,0 +1,9 @@
+#titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aquamarine;
+}
+
+#card{
+    width:fit-content;
+    height: fit-content;
+}
