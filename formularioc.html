@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBC Festival - Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <body>
+    <header>
+        <div class="container text-center">
+            <br><br>
+            <h1 >Conexão Brasil Coreia</h1><br><br>
+            <h3>Esteja em dois lugares ao mesmo tempo!</h3><br><br>
+            <h4 class="text-center">Formulário de Compra Dia 1</h4><br>
+        </div>
+    </header>
+
+    <div class="d-flex flex-row justify-content-center">
+        <div>
+            <form action="submit_form.php" method="GET">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="name">Nome Social:</label><br>
+                <input type="text" id="name-s" name="name-s"><br><br>
+
+                <label for="age">Idade:</label><br>
+                <input type="number" id="age" name="age"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label>Sexo:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Masculino</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Feminino</label><br>
+                <input type="radio" id="nao-informado" name="gender" value="nao-informado">
+                <label for="nao-informado">Prefiro não Informar</label><br><br>
+
+                <label for="continente">Continente:</label>
+                <select id="continente" name="continente">
+                <option value="africa">África</option>
+                <option value="america">América</option>
+                <option value="asia">Ásia</option>
+                <option value="Europa">Europa</option>
+                <option value="oceania">Oceania</option>
+                <option value="antartida">Antártida</option>
+                </select><br><br>
+
+                <label for="country">País:</label><br>
+                <input type="country" id="country" name="contry"><br><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center">
+        <h6 class="text-center container"><strong>Escolha uma opção de dia e ingresso para seguir ao site de compras!<br></strong>
+        Lembrando que se você optar por Pista Premium uma série de vantagens aguardam você! <br>
+        A Pista Premium te dá direito a Open Bar, Acesso Antecipado ao Local, <br>
+        Brindes Exclusivos dos Patrocinadores e espaço de espera equipado com Spa Day e Gamming Hub.<br><br><br></h6>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center">
+        <div>
+            <form action="submit_form.php" method="GET">
+                <label for="seleção">Selecione:</label>
+                <select id="seleção" name="seleção">
+                <option value="day 1">Day 1</option>
+                <option value="day 2">Day 2</option>
+                <option value="passaporte">Passaporte Woodz</option>
+                </select><br><br>
+        
+            </form>
+
+            <form action="submit_form.php" method="GET">
+                <label for="pista">Tipo de Pista</label><br>
+                <select id="pista" name="pista">
+                <option value="pista normal">Pista Normal</option>
+                <option value="pista premium">Pista Premium</option>
+                <option value="passaporte plus">Passaporte Woodz Supremo</option>
+                </select><br><br>
+        
+            </form>
+
+            <input type="submit" value="Enviar">
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
